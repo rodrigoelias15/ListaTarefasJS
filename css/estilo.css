@@ -92,6 +92,7 @@ main{
     padding: 10px;
     height: 80px;
     width: 100%;
+    cursor: pointer;
 }
 
 .mdi-check-circle{
