@@ -11,6 +11,7 @@ function addTarefa() {
         ++cont;
 
         // Poderia ser colocado aspas simples, porém teria que colocar tudo em uma linha só
+        // crase permite que coloquemos variáveis junto ao texto
         let novoItem = `<div id="${cont}" class="item">
                             <div onclick="marcarTarefa(${cont})" class="item-icone">
                                 <i id="icone_${cont}" class="mdi mdi-circle-outline"></i>            
